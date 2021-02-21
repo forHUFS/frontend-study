@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function App() {
+function Todo() {
   const [value, setValue] = useState("");
 
   const [todos, setTodo] = useState([
@@ -56,4 +56,4 @@ function App() {
   );
 }
 
-export default App;
+export default Todo;
